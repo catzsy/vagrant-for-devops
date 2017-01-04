@@ -1,0 +1,5 @@
+export PATH="$HOME/.nodenv/bin:$PATH"
+eval "$(nodenv init -)"
+
+HOME_BIN="$HOME/bin"
+export PATH="$HOME_BIN/apache-maven/bin:$PATH"
